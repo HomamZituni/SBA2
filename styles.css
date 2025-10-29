@@ -214,8 +214,12 @@ h2 {font-size: 1.5remx;}
 @media (max-width: 600px) {
 h1 {font-size: 1.5rem;}
 h2 {font-size: 1.2rem;}
-nav ul {flex-direction: column;}
+nav ul {flex-direction: column;
+padding:0;}
+nav li { margin-bottom: 10px;
+text-align: center;}
 .services-grid {grid-template-columns: 1fr;}
-#contact form {padding: 10px;}    
-} 
+#contact form {padding: 10px; width: 90%; margin: 0 auto;}
+#contact input, #contact textarea {width: 100; box-sizing: border-box;}    
+} /* Media query for phones  */
 
