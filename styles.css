@@ -7,6 +7,10 @@ width: 80%;
 height: auto; 
 }
 
+h1, h2 {
+text-align: center; 
+margin: 10px 0;    
+}
 
 #navbar ul {
 display: flex; 
@@ -26,6 +30,21 @@ font-weight: bold;
 
 #navbar a:hover {
     color:#0077cc
+}
+
+#about-us {
+text-align: center; 
+padding: 60px 20px;    
+}
+#about-us h2 {
+font-size: 2rem; 
+margin-bottom: 20px;    
+}
+
+#about-us article p {
+max-width: 700px;
+margin: 0 auto 15px; 
+line-height: 1.6;    
 }
 
 #hero {
@@ -65,11 +84,11 @@ outline-offset: 2px;
 }
 
 .services-grid {
-    display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax (200px, 1fr));
-    gap: 20px; 
-    text-align: center; 
-    padding: 20px; }
+display: grid; 
+grid-template-columns: repeat(auto-fit, minmax (200px, 1fr));
+gap: 20px; 
+text-align: center; 
+padding: 20px; }
 
 .service-grid article {
 background-color: #f9f9f9; 
@@ -82,5 +101,32 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 width: 100px; 
 height: 100px; 
 margin-bottom: 10px;     
+}
+
+#services h2 {
+text-align: center;
+font-size: 2rem;
+margin-bottom: 40px;     
+}
+
+.services-grid article {
+display: flex; 
+flex-direction: column;
+align-items: center; 
+background-color: #f9f9f9;
+padding: 20px; 
+border-radius: 8px; 
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+text-align: center;     
+}
+
+.services-grid h3 { 
+margin: 10px 0;
+font-size: 1.3rem;     
+}
+
+.services-grid p {
+max-width: 250px; 
+line-height: 1.5;     
 }
 
