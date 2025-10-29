@@ -60,6 +60,27 @@ border-radius: 5px;
 #hero button:hover,
 #hero button:focus {
 background-color: #005fa3;
-outline: 3px solid #fff
+outline: 3px solid #fff;
 outline-offset: 2px;    
 }
+
+.services-grid {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax (200px, 1fr));
+    gap: 20px; 
+    text-align: center; 
+    padding: 20px; }
+
+.service-grid article {
+background-color: #f9f9f9; 
+padding: 20px; 
+border-radius: 8px; 
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.services-grid img {
+width: 100px; 
+height: 100px; 
+margin-bottom: 10px;     
+}
+
