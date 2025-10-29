@@ -187,3 +187,20 @@ background-color: #005fa3;
 outline: 3px solid #fff;
 outline-offset: 2px;     
 }
+
+footer {
+background-color: #f2f2f2;
+text-align: center; 
+padding: 20px; 
+}
+
+footer a {
+color: #0077cc; 
+text-decoration: none; 
+margin: 0 5px;     
+}
+
+footer a:hoover, footer a:focus {
+text-decoration: underline;     
+}
+
