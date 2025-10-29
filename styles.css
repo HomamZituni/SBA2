@@ -90,17 +90,24 @@ gap: 20px;
 text-align: center; 
 padding: 20px; }
 
-.service-grid article {
+.services-grid article {
+display: flex; 
+flex-direction: column;
+align-items: center; 
+text-align: center; 
 background-color: #f9f9f9; 
 padding: 20px; 
 border-radius: 8px; 
 box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+width: 100%;
+box-sizing: border-box; 
 }
 
 .services-grid img {
-width: 150px; 
+width: 80%;
+max-width: 300px;  
 height: auto; 
-margin-bottom: 0 auto 15px;
+margin-bottom: 15px;
 display: block;      
 }
 
